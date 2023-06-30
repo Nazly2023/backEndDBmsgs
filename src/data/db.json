@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "number": 3134596526,
+      "password": 123456,
+      "name": "Nazly Zambrano",
+      "urlProfileImage": "./frontEnd/src/app/images/myAvatar.svg",
+      "flagConnection": "En línea",
+      "infoStatus": "No te tomes la vida demasiado en serio. No saldrás de ella con vida (Elbert Hubbard)",
+      "lastConnection": "30/05/2023 1:30:23"
+    },
+    {
+      "id": 2,
+      "number": 3154186821,
+      "password": 123456,
+      "name": "Manuel Fernández",
+      "urlProfileImage": "./frontEnd/src/app/images/myAvatarManuel.svg",
+      "flagConnection": "",
+      "infoStatus": "Tener la conciencia limpia es señal de mala memoria (Steven Wright)",
+      "lastConnection": "30/05/2023 1:30:23"
+    },
+    {
+      "id": 3,
+      "number": 3025309023,
+      "password": 123456,
+      "name": "Luis Zambrano",
+      "urlProfileImage": "./frontEnd/src/app/images/myAvatarLuis.svg",
+      "flagConnection": "En línea",
+      "infoStatus": "Me gustan los largos paseos, especialmente cuando los toma gente molesta (Fred Allen)",
+      "lastConnection": "30/05/2023 1:30:23"
+    },
+    {
+      "id": 4,
+      "number": 3227520962,
+      "password": 123456,
+      "name": "Eliana Zambrano Hendez",
+      "urlProfileImage": "./frontEnd/src/app/images/myAvatarEliana.svg",
+      "flagConnection": "",
+      "infoStatus": "Creo que he encontrado el eslabón perdido entre el animal y el hombre civilizado. Somos nosotros (Konrad Lorenz)",
+      "lastConnection": "30/05/2023 1:30:23"
+    },
+    {
+      "id": 5,
+      "number": 3103252093,
+      "password": 123456,
+      "name": "Yacqueline Hendez",
+      "urlProfileImage": "./frontEnd/src/app/images/myAvatarYackie.svg",
+      "flagConnection": "En línea",
+      "infoStatus": "Nunca me siento tan solo como cuando necesito ponerme crema solar en la espalda (Jimmy Kimmel)",
+      "lastConnection": "30/05/2023 1:30:23"
+    }
+  ],
+  "messages": [
+    {
+      "idUser1": 2,
+      "idUser2": 3,
+      "conversations": [
+        {
+          "idConversation": 1,
+          "sendById": 2,
+          "date": "29/06/2023",
+          "hour": "11:15:15",
+          "message": "zxfjosdjflmsdlñ",
+          "flagViewed": "recibido"
+        }
+      ]
+    },
+    {
+      "idUser1": 5,
+      "idUser2": 1,
+      "conversations": [
+        {
+          "idConversation": 1,
+          "sendById": 5,
+          "date": "29/06/2023",
+          "hour": "11:15:15",
+          "message": "zxfjosfsfsdfdjflmsdxzxlñ",
+          "flagViewed": "enviado"
+        }
+      ]
+    }
+  ]
+}
